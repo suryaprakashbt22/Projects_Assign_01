@@ -11,3 +11,5 @@ for(int i=0;i< student_marks.Length; i++)
     sum+=student_marks[i];
 }
 Console.WriteLine("The Average Marks Obtained is {0}", (double)sum / 5);
+Console.WriteLine("Highest Marks obtained = {0}",student_marks.Max());
+
